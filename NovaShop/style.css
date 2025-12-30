@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+   height: 100%;
+  width: 100%; 
+}
+
+#header{
+     height: 15vh;
+     width: 100%; 
+     background-color: white;
+     position: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+#logo{
+    height: 70%;
+    
+}
+#logo img{
+    height: 50px;
+    width: 50px;
+}
+.texts{
+   color: rgb(42, 42, 239);
+    
+    display: flex;
+    font-weight: bolder;
+}
+.texts:hover{
+    color: aqua;
+}
+
+#contact{
+    
+    font-weight: lighter;
+}
+#contact:hover{
+    color: blue;
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color:whitesmoke;
+}
+#login{
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    background-color: green;
+    font-weight: bolder;
+    padding: 10px 20px;
+    color: white;
+}
+#try:hover{
+    background-color: darkgreen;
+}
+#fakeheader{
+    height: 15vh;
+     width: 100%; 
+     background-color: wheat;
+}
+
+#page1{
+  height: 85vh;
+  width: 100%; 
+  background-color: wheat ;
+}
+#Strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(65, 65, 248);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#Strip p{
+    font-size: large;
+}
+#Strip u{
+    margin-left: 20px;
+}
+#String u:hover{
+    color: blue;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    background-color: antiquewhite;
+    display: flex;
+}
+#box1{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+ #box1 h2{
+    font-weight: 600;
+    color: rgb(5, 14, 183);
+    font-size: x-large;
+ }
+ #box1 p{
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: x-large;
+ }
+#btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bt1{
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(60, 163, 237);
+    border: 1px solid black;
+    margin-left: 10px;
+     margin-top: 220px;
+    
+}
+#bt1:hover{
+    background-color: white;
+    color: rgb(60, 163, 237) ;
+}
+#bt2{
+    width: 23%;
+    padding: 10px 20px;
+    color: rgb(60, 163, 237);
+    background-color: white;
+    border: 1px solid black;
+     margin-left: 40px;
+     margin-top: 220px;
+
+}
+#bt2:hover{
+    background-color: rgb(60, 163, 237);
+    color: white;
+}
+#box2{
+    height: 100%;
+    width: 50%;
+    
+
+}
+
+#heading{
+    width: 100%;
+    height: 16%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+
+}
+#page2{
+    height: 85vh;
+  width: 100%; 
+  background-color: darkgray ;
+}
