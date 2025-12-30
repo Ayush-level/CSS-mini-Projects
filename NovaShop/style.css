@@ -118,6 +118,10 @@ html, body {
     font-weight: 600;
     color: rgb(5, 14, 183);
     font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
  }
  #box1 p{
     margin-top: 50px;
